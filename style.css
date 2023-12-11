@@ -1,0 +1,68 @@
+/* General Body Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f8ff; /* Light azure background */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Title Styles */
+h1 {
+    color: #ff4500; /* Vibrant orange for title */
+    font-size: 36px; /* Larger font size */
+    margin-bottom: 30px;
+}
+
+/* Input Field Styles */
+input.weather {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    width: 300px; /* Fixed width for larger appearance */
+    border: 2px solid #ffa07a; /* Light salmon border */
+    border-radius: 25px;
+    font-size: 18px; /* Larger font size */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+
+input.weather:focus {
+    outline: none;
+    border-color: #32cd32; /* Lime green for focus */
+}
+
+/* Button Styles */
+button {
+    padding: 15px 25px;
+    background-color: #32cd32; /* Lime green button */
+    color: white;
+    font-size: 20px; /* Larger font size */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #228b22; /* Forest green on hover */
+}
+
+/* Paragraph Styles */
+p {
+    color: #ffa07a; /* Light salmon for paragraph text */
+    margin-top: 30px;
+    font-size: 22px; /* Larger font size */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    input.weather, button {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+}
