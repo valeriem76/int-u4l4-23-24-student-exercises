@@ -22,4 +22,5 @@ button.addEventListener("click", function() {
 
 // Finished early? 
 //  - Add another state of your choosing!
-//  - Use compound conditionals so it accepts a user typing the state in different ways: all caps, all lowercase, and first letter capitalized.
+//  - See if you can update your statements to accept a user typing the state in different ways: all caps, all lowercase, and first letter capitalized.
+//  - This will be in our next lesson, but do some research and see if you can figure it out 💪
