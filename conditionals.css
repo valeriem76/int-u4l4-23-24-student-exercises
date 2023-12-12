@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00ffcc;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Image Styles */
+img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Trivia Box Styles */
+.trivia-box {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: -40px;
+    text-align: center;
+    z-index: 2;
+}
+
+.trivia-box p {
+    margin: 15px 0;
+}
+
+.state {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+/* Link Styles */
+.california, .illinois, .new-york {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    display: none;
+}
+
+.california a, .illinois a, .new-york a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.california a:hover, .illinois a:hover, .new-york a:hover {
+    text-decoration: underline;
+}
+
+/* Other State Styles */
+.other {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
